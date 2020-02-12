@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<head>
+  <script async src="../www.googletagmanager.com/gtag/js_id=UA-111798167-3.js"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-111798167-3');
+  </script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Minimal one-page websites for creative workers & teams">
+
+  <title>Layouts - Other Shapes</title>
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Other Shapes">
+  <meta property="og:url" content="http://other-shapes.com">
+  <meta property="og:image" content="http://other-shapes.com/img/facebook.jpg">
+  <meta property="og:description" content="Minimal one-page websites for creative workers & teams">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Other Shapes">
+  <meta name="twitter:description" content="Minimal one-page websites for creative workers & teams">
+  <meta name="twitter:image" content="http://other-shapes.com/img/twitter.jpg">
+
+  <link rel="shortcut icon" href="img/favicon.png" type="image/png"/>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+  <body>
+    <div class="loader"></div>
+
+    <script>
+      const loader=document.querySelector(".loader");loader.style.display="block",window.addEventListener("load",function(e){loader.style.opacity="0",window.setTimeout(()=>{loader.parentNode.removeChild(loader)},200)});
+    </script>
+
+    <header class="header">
+      <div class="container">
+        <div class="header__column hide-on-mobile">
+
+        </div>
+        <div class="header__column">
+          <a href="index.html">
+            <img class="logo hide-on-desktop" src="img/icon.svg" alt="Other Shapes">
+            <img class="logo hide-on-mobile" src="img/logo.svg" alt="Other Shapes">
+          </a>
+        </div>
+        <div class="header__column">
+          <a onclick="showModal()">Enquire <span class="icon"><img src="img/arrow_right.svg" width="16" alt=""></span></a>
+        </div>
+      </div>
+    </header>
+
+    <section class="layouts">
+    </section>
+
+    <section class="services" id="services">
+      <div class="container">
+        <div class="services__header">
+          <h1>Pricing</h1>
+        </div>
+        <div class="services__row">
+          <div class="services__column">
+            <div class="services__heading">
+              <h2>Basic - 120 GBP</h2>
+            </div>
+            <div class="services__body">
+              <small>1</small>
+              <p>You decide which layout you want to customise.</p>
+              <small>2</small>
+              <p>We tweak the colour palette and fonts to match to your liking.</p>
+              <small>3</small>
+              <p>The design is populated with your own work / content</p>
+              <small>4</small>
+              <p>You’re provided with fully tested and optimised HTML files - ready to upload.</p>
+              <a onclick="showModal()" class="button enquire">Enquire <span class="icon"><img src="img/arrow_right.svg" width="16" alt=""></span></a>
+            </div>
+          </div>
+          <div class="services__column">
+            <div class="services__heading">
+              <h2>Standard - 480 GBP</h2>
+            </div>
+            <div class="services__body">
+              <small>0</small>
+              <p>Everything in the basic package is included.</p>
+              <small>1</small>
+              <p>The site is built on top of a content management system of your choice e.g. Wordpress or Shopify.</p>
+              <small>2</small>
+              <p>The process of uploading and publishing the site is handled for you.</p>
+              <a onclick="showModal()" class="button enquire">Enquire <span class="icon"><img src="img/arrow_right.svg" width="16" alt=""></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="services__row">
+          <div class="services__column single darker">
+            <div class="services__heading half">
+              <h2>Custom</h2>
+              <h2>8000 GBP</h2>
+            </div>
+            <div class="services__body half">
+              <small>1</small>
+              <p>Make more bespoke customisations to the design</p>
+              <small>2</small>
+              <p>Add multiple pages</p>
+              <small>3</small>
+              <p>Add additional functionality such as newsletter subscription, videos, user authentication etc.</p>
+              <a onclick="showModal()" class="button enquire">Enquire <span class="icon"><img src="img/arrow_right.svg" width="16" alt=""></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="services__row">
+          <div class="services__column">
+            <div class="services__heading">
+              <h2>Publishing - 60 GBP</h2>
+            </div>
+            <div class="services__body">
+              <small>0</small>
+              <p>If you would rather not mess around with domains and servers. I’ll handle the website publishing for you.</p>
+              <a onclick="showModal()" class="button enquire">Enquire <span class="icon"><img src="img/arrow_right.svg" width="16" alt=""></span></a>
+            </div>
+          </div>
+          <div class="services__column">
+            <div class="services__heading">
+              <h2>Hosting - 10 GBP Monthly</h2>
+            </div>
+            <div class="services__body">
+              <small>0</small>
+              <p>I’ll host your website and make sure it stays online and is fast. I’ll also throw in a free SSL certificate.</p>
+              <a onclick="showModal()" class="button enquire">Enquire <span class="icon"><img src="img/arrow_right.svg" width="16" alt=""></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pre-footer">
+      <h3>Ready for a new website?</h3>
+      <a onclick="showModal()" class="button secondary">Get in touch</a>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__column">
+          <a href="terms.html">Terms</a>
+        </div>
+        <div class="footer__column hide-on-mobile">
+          © 2019
+        </div>
+        <div class="footer__column">
+          By <a href="http://jermainecraig.com" target="_blank">Jermaine</a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal__overlay">
+      <div class="modal">
+        <div class="modal__main">
+          <div class="modal__close"><a onclick="closeModal()">Close</a></div>
+          <h2 class="modal__title hide-on-mobile">Enquire</h2>
+          <div class="modal__content">
+            <p>email me directly at jerome-craig@hotmail.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/scripts.js" charset="utf-8"></script>
+  </body>
+
+</html>

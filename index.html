@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <script async src="../www.googletagmanager.com/gtag/js_id=UA-111798167-3.js"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-111798167-3');
+  </script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Minimal one-page websites for creative workers & teams">
+
+  <title>Jerome Craig - Web Creator</title>
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Other Shapes">
+  <meta property="og:url" content="http://other-shapes.com">
+  <meta property="og:image" content="http://other-shapes.com/img/facebook.jpg">
+  <meta property="og:description" content="Minimal one-page websites for creative workers & teams">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Other Shapes">
+  <meta name="twitter:description" content="Minimal one-page websites for creative workers & teams">
+  <meta name="twitter:image" content="http://other-shapes.com/img/twitter.jpg">
+
+  <link rel="shortcut icon" href="img/favicon.png" type="image/png"/>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+  <body>
+    <div class="loader"></div>
+
+    <script>
+      const loader=document.querySelector(".loader");loader.style.display="block",window.addEventListener("load",function(e){loader.style.opacity="0",window.setTimeout(()=>{loader.parentNode.removeChild(loader)},200)});
+    </script>
+
+    <header class="header">
+      <div class="container">
+        <div class="header__column hide-on-mobile">
+
+        </div>
+        <div class="header__column">
+          <a href="index.html">
+            <img class="logo hide-on-desktop" src="img/icon.svg" alt="Other Shapes">
+            <img class="logo hide-on-mobile" src="img/logo.svg" alt="Other Shapes">
+          </a>
+        </div>
+        <div class="header__column">
+          <a onclick="showModal()">Enquire <span class="icon"><img src="img/arrow_right.svg" width="16" alt=""></span></a>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero__heading">
+          I'm a web designer, developer & illustrator. I focus on digital brand experiences. My passion is solving problems through unique ideas that translate into compelling design solutions.
+        </h1>
+      </div>
+      <a href="#main" class="button tertiary">See more</a>
+    </section>
+
+    <section class="carousel">
+      <div class="carousel__slide">
+        <img src="img/gftc.jpg" alt="Other Shapes - Directory">
+      </div>
+      <div class="carousel__slide">
+        <img src="img/Design Dip.png" alt="Other Shapes - Credits">
+      </div>
+      <div class="carousel__slide">
+        <img src="img/Minimalissimo.png" alt="Other Shapes - Credits">
+      </div>
+    </section>
+
+    <section id="main" class="main">
+      <div class="container-two">
+
+        <div class="about">
+          <div class="about__column">
+            <small>step ___ one</small>
+            <h2>Get a feel</h2>
+            <p>Preview my previous work, get an idea of the level I work at. If you like it, now for...</p>
+            <a href="#layouts" class="button tertiary">See layouts</a>
+          </div>
+          <div class="about__column gradient">
+            <div class="about__column--inner">
+              <small>step ___ two</small>
+              <h2>Enquire</h2>
+              <p>Get in touch to discuss your budget, the size of & the type of website you would like to build.</p>
+              <a onclick="showModal()" class="button secondary">Get in touch</a>
+            </div>
+          </div>
+        </div>
+
+        <section id="layouts">
+          <div class="container-two">
+    <!--        <div class="layouts__row">
+              <div class="layouts__slider">
+                <div class="layouts__slide"><a href="/Users/jeromecraig/Downloads/CODING/cultivatingthevanguard.com/index.html" target="_blank"><video style=" width:100%; " autoplay muted loop poster><
+                <source src="/Users/jeromecraig/Downloads/CODING/Jerome-Shapes/vid/Royce Showcase.mov" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></a></div>
+              </div>
+              <div class="layouts__body">
+                <small>1</small>
+                <h2>Thus.</h2>
+                <p>A classy e-commerce website with a big presence. For Menswear.</p>
+                <div class="layouts__actions">
+                  <a href="/Users/jeromecraig/Downloads/CODING/cultivatingthevanguard.com/index.html" target="_blank" class="button preview">Preview</a>
+                </div>
+              </div>
+            </div>  !-->
+
+            <div class="layouts__row">
+              <div class="layouts__slider">
+                <div class="layouts__slide"><div class="layouts__slide"><a href="https://godsfromthecorner.com/pages/home" target="_blank"><video style=" width:100%; " autoplay muted loop poster><
+                <source src="/Users/jeromecraig/Downloads/CODING/Jerome-Shapes/vid/gftc.mov" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></a></div></div>
+              </div>
+              <div class="layouts__body">
+                <small>1</small>
+                <h2>Gods From The Corner</h2>
+                <p>A clean, compact e-commerce store for Urban streetwear.</p>
+                <div class="layouts__actions">
+                  <a href="https://godsfromthecorner.com/pages/home" target="_blank" class="button preview">Preview</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="layouts__row">
+              <div class="layouts__slider">
+                <div class="layouts__slide"><a href="/Users/jeromecraig/Downloads/CODING/minimalissimo.com/index.html" target="_blank"><video style=" width:100%; " autoplay muted loop poster><
+                <source src="/Users/jeromecraig/Downloads/CODING/Jerome-Shapes/vid/Minimalisimo-preview.mov" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></a></div>
+              </div>
+              <div class="layouts__body">
+                <small>2</small>
+                <h2>Minimalissimo</h2>
+                <p>A gallery website showcasing minimalistic crafts and furniture.</p>
+                <div class="layouts__actions">
+                  <a href="/Users/jeromecraig/Downloads/CODING/minimalissimo.com/index.html" target="_blank" class="button preview">Preview</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="layouts__row">
+              <div class="layouts__slider">
+                <div class="layouts__slide"><div class="layouts__slide"><a href="/Users/jeromecraig/Downloads/CODING/thedsgnshop.com/index.html" target="_blank"><video style=" width:100%; " autoplay muted loop poster><
+                <source src="/Users/jeromecraig/Downloads/CODING/Jerome-Shapes/vid/Design Dip - preview.mov" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></a></div></div>
+              </div>
+              <div class="layouts__body">
+                <small>3</small>
+                <h2>Design Dip</h2>
+                <p>A clean, simple gallery-based website which serves as a portal to other services.</p>
+                <div class="layouts__actions">
+                  <a href="/Users/jeromecraig/Downloads/CODING/thedsgnshop.com/index.html" target="_blank" class="button preview">Preview</a>
+                </div>
+              </div>
+            </div>
+            </div>
+        </section>
+
+        <div class="contact">
+          <div class="contact__column">
+            <h3>Work with me</h3>
+          </div>
+          <div class="contact__column">
+            <p>I'm always eager for taking on projects, forming relationships and bringing your ideas to life. <br><br>
+               Let's work. Get in touch.</p>
+            <a onclick="showModal()" class="button secondary">Get in touch</a>
+          </div>
+        </div>
+
+<!--
+        <div class="gallery">
+          <h2 class="gallery__heading">Illustrations</h2>
+          <div class="gallery__body">
+            <div class="gallery__item">
+              <img src="img/placeholder_light.jpg"
+                   data-src="img/layout_1_small.jpg"
+                   data-srcset="img/layout_1_small.jpg 560w,
+                           img/layout_1_medium.jpg 960w,
+                           img/layout_1_large.jpg 1200w"
+                   data-sizes="(max-width: 672px) 560px,
+                               (max-width: 1440px) 960px,
+                               1200px"
+                   class="lazy"
+                   alt="Other Shapes - Directory">
+                   <noscript>
+                     <img src="/Users/jeromecraig/Downloads/CODING/Jerome-Shapes/img/ren (side).png"
+                          srcset="/Users/jeromecraig/Downloads/CODING/Jerome-Shapes/img/ren (side).png 560w,
+                                  /Users/jeromecraig/Downloads/CODING/Jerome-Shapes/img/ren (side).png 960w,
+                                  /Users/jeromecraig/Downloads/CODING/Jerome-Shapes/img/ren (side).png 1200w"
+                          sizes="(max-width: 672px) 560px,
+                                     (max-width: 1440px) 960px,
+                                     1200px"
+                          alt="Other Shapes - Directory">
+                   </noscript>
+            </div>
+            <div class="gallery__item">
+              <img src="img/placeholder_light.jpg"
+                   data-src="img/layout_4_small.jpg"
+                   data-srcset="img/layout_4_small.jpg 560w,
+                           img/layout_4_medium.jpg 960w,
+                           img/layout_4_large.jpg 1200w"
+                   data-sizes="(max-width: 672px) 560px,
+                               (max-width: 1440px) 960px,
+                               1200px"
+                   class="lazy"
+                   alt="Other Shapes - Credits">
+                   <noscript>
+                     <img src="img/layout_4_medium.jpg"
+                          srcset="img/layout_4_small.jpg 560w,
+                                  img/layout_4_medium.jpg 960w,
+                                  img/layout_4_large.jpg 1200w"
+                          sizes="(max-width: 672px) 560px,
+                                     (max-width: 1440px) 960px,
+                                     1200px"
+                          alt="Other Shapes - Credits">
+                   </noscript>
+            </div>
+            <div class="gallery__item">
+              <img src="img/placeholder_light.jpg"
+                   data-src="img/layout_2_small.jpg"
+                   data-srcset="img/layout_2_small.jpg 560w,
+                           img/layout_2_medium.jpg 960w,
+                           img/layout_2_large.jpg 1200w"
+                   data-sizes="(max-width: 672px) 560px,
+                               (max-width: 1440px) 960px,
+                               1200px"
+                   class="lazy"
+                   alt="Other Shapes - Directory">
+                   <noscript>
+                     <img src="img/layout_2_medium.jpg"
+                          srcset="img/layout_2_small.jpg 560w,
+                                  img/layout_2_medium.jpg 960w,
+                                  img/layout_2_large.jpg 1200w"
+                          sizes="(max-width: 672px) 560px,
+                                     (max-width: 1440px) 960px,
+                                     1200px"
+                          alt="Other Shapes - Directory">
+                   </noscript>
+            </div>
+            <div class="gallery__item">
+              <img src="img/placeholder_light.jpg"
+                   data-src="img/layout_5_small.jpg"
+                   data-srcset="img/layout_5_small.jpg 560w,
+                           img/layout_5_medium.jpg 960w,
+                           img/layout_5_large.jpg 1200w"
+                   data-sizes="(max-width: 672px) 560px,
+                               (max-width: 1440px) 960px,
+                               1200px"
+                   class="lazy"
+                   alt="Other Shapes - Pinup">
+                   <noscript>
+                     <img src="img/layout_5_medium.jpg"
+                          srcset="img/layout_5_small.jpg 560w,
+                                  img/layout_5_medium.jpg 960w,
+                                  img/layout_5_large.jpg 1200w"
+                          sizes="(max-width: 672px) 560px,
+                                     (max-width: 1440px) 960px,
+                                     1200px"
+                          alt="Other Shapes - Pinup">
+                   </noscript>
+            </div>
+            <div class="gallery__item">
+              <img src="img/placeholder_light.jpg"
+                   data-src="img/layout_3_small.jpg"
+                   data-srcset="img/layout_3_small.jpg 560w,
+                           img/layout_3_medium.jpg 960w,
+                           img/layout_3_large.jpg 1200w"
+                   data-sizes="(max-width: 672px) 560px,
+                               (max-width: 1440px) 960px,
+                               1200px"
+                   class="lazy"
+                   alt="Other Shapes - Credits">
+                   <noscript>
+                     <img src="img/layout_3_medium.jpg"
+                          srcset="img/layout_3_small.jpg 560w,
+                                  img/layout_3_medium.jpg 960w,
+                                  img/layout_3_large.jpg 1200w"
+                          sizes="(max-width: 672px) 560px,
+                                     (max-width: 1440px) 960px,
+                                     1200px"
+                          alt="Other Shapes - Credits">
+                   </noscript>
+            </div>
+            <div class="gallery__item">
+              <img src="img/placeholder_light.jpg"
+                   data-src="img/layout_6_small.jpg"
+                   data-srcset="img/layout_6_small.jpg 560w,
+                           img/layout_6_medium.jpg 960w,
+                           img/layout_6_large.jpg 1200w"
+                   data-sizes="(max-width: 672px) 560px,
+                               (max-width: 1440px) 960px,
+                               1200px"
+                   class="lazy"
+                   alt="Other Shapes - Halves">
+                   <noscript>
+                     <img src="img/layout_6_medium.jpg"
+                          srcset="img/layout_6_small.jpg 560w,
+                                  img/layout_6_medium.jpg 960w,
+                                  img/layout_6_large.jpg 1200w"
+                          sizes="(max-width: 672px) 560px,
+                                     (max-width: 1440px) 960px,
+                                     1200px"
+                          alt="Other Shapes - Halves">
+                   </noscript>
+            </div>
+            <div class="gallery__item">
+              <img src="img/placeholder_light.jpg"
+                   data-src="img/layout_7_small.jpg"
+                   data-srcset="img/layout_7_small.jpg 560w,
+                           img/layout_7_medium.jpg 960w,
+                           img/layout_7_large.jpg 1200w"
+                   data-sizes="(max-width: 672px) 560px,
+                               (max-width: 1440px) 960px,
+                               1200px"
+                   class="lazy"
+                   alt="Other Shapes - Drag">
+                   <noscript>
+                     <img src="img/layout_7_medium.jpg"
+                          srcset="img/layout_7_small.jpg 560w,
+                                  img/layout_7_medium.jpg 960w,
+                                  img/layout_7_large.jpg 1200w"
+                          sizes="(max-width: 672px) 560px,
+                                     (max-width: 1440px) 960px,
+                                     1200px"
+                          aalt="Other Shapes - Drag">
+                   </noscript>
+            </div>
+            <div class="gallery__item">
+              <img src="img/placeholder_light.jpg"
+                   data-src="img/layout_8_small.jpg"
+                   data-srcset="img/layout_8_small.jpg 560w,
+                           img/layout_8_medium.jpg 960w,
+                           img/layout_8_large.jpg 1200w"
+                   data-sizes="(max-width: 672px) 560px,
+                               (max-width: 1440px) 960px,
+                               1200px"
+                   class="lazy"
+                   alt="Other Shapes - Halves">
+                   <noscript>
+                     <img src="img/layout_8_medium.jpg"
+                          srcset="img/layout_8_small.jpg 560w,
+                                  img/layout_8_medium.jpg 960w,
+                                  img/layout_8_large.jpg 1200w"
+                          sizes="(max-width: 672px) 560px,
+                                     (max-width: 1440px) 960px,
+                                     1200px"
+                          alt="Other Shapes - Halves">
+                   </noscript>
+            </div>
+          </div>
+        </div> !-->
+
+        <footer class="footer">
+          <div class="container">
+            <div class="footer__column">
+              <a href="terms.html">Terms</a>
+            </div>
+            <div class="footer__column hide-on-mobile">
+              © 2019
+            </div>
+            <div class="footer__column">
+              By <a href="http://jermainecraig.com" target="_blank">Jerome</a>
+            </div>
+          </div>
+        </footer>
+
+        <div class="modal__overlay">
+        	<div class="modal">
+        	  <div class="modal__main">
+              <div class="modal__close"><a onclick="closeModal()">Close</a></div>
+        	    <h2 class="modal__title hide-on-mobile">Enquire</h2>
+        	    <div class="modal__content">
+        	      <p>email me directly at jerome-craig@hotmail.com</p>
+        	    </div>
+        	  </div>
+        	</div>
+        </div>
+
+      </div>
+    </section>
+
+    <script src="js/scripts.js" charset="utf-8"></script>
+  </body>
+
+</html>

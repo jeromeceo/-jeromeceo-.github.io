@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<head>
+  <script async src="../www.googletagmanager.com/gtag/js_id=UA-111798167-3.js"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-111798167-3');
+  </script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Minimal one-page websites for creative workers & teams">
+
+  <title>Terms - Other Shapes</title>
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Other Shapes">
+  <meta property="og:url" content="http://other-shapes.com">
+  <meta property="og:image" content="http://other-shapes.com/img/facebook.jpg">
+  <meta property="og:description" content="Minimal one-page websites for creative workers & teams">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Other Shapes">
+  <meta name="twitter:description" content="Minimal one-page websites for creative workers & teams">
+  <meta name="twitter:image" content="http://other-shapes.com/img/twitter.jpg">
+
+  <link rel="shortcut icon" href="img/favicon.png" type="image/png"/>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+  <body>
+    <div class="loader"></div>
+
+    <script>
+      const loader=document.querySelector(".loader");loader.style.display="block",window.addEventListener("load",function(e){loader.style.opacity="0",window.setTimeout(()=>{loader.parentNode.removeChild(loader)},200)});
+    </script>
+
+    <header class="header">
+      <div class="container">
+        <div class="header__column hide-on-mobile">
+
+        </div>
+        <div class="header__column">
+          <a href="index.html">
+            <img class="logo hide-on-desktop" src="img/icon.svg" alt="Other Shapes">
+            <img class="logo hide-on-mobile" src="img/logo.svg" alt="Other Shapes">
+          </a>
+        </div>
+        <div class="header__column">
+          <a onclick="showModal()">Enquire <span class="icon"><img src="img/arrow_right.svg" width="16" alt=""></span></a>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero --header">
+      <div class="container">
+        <h1 class="hero__heading">
+          Terms
+        </h1>
+      </div>
+    </section>
+
+    <section class="terms">
+      <div class="container">
+        <div class="terms__row">
+          <div class="terms__heading">
+            <h2>Payment terms</h2>
+          </div>
+          <div class="terms__body">
+            <p>Any project fee charged at £1000 or under will require the full fee invoice paid upfront for work to commence. Any project fee charged above this amount will be split into two 50% payments. The first 50% will be required for work to commence, and the second 50% will be required for handover.</p>
+            <p>Alternative payment terms will be discussed on projects charged at £10000 or above.</p>
+          </div>
+        </div>
+        <div class="terms__row">
+          <div class="terms__heading">
+            <h2>Website hosting</h2>
+          </div>
+          <div class="terms__body">
+            <p>The website hosting service is charged at £10 / month and guarantees your website stays online and any issues that do come up are dealt with promptly. This service includes a free SSL/TLS certificate for securing your website.</p>
+          </div>
+        </div>
+        <div class="terms__row">
+          <div class="terms__heading">
+            <h2>Website maintenance</h2>
+          </div>
+          <div class="terms__body">
+            <p>Maintenance is charged at £30 per every 20 minutes of work required to implement the requested updates to your website.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__column">
+          <a href="terms.html">Terms</a>
+        </div>
+        <div class="footer__column hide-on-mobile">
+          © 2019
+        </div>
+        <div class="footer__column">
+          By <a href="http://jermainecraig.com" target="_blank">Jermaine</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/scripts.js" charset="utf-8"></script>
+  </body>
+
+</html>
